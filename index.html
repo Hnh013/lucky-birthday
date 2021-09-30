@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky Birthday</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+            <span><h1>Is Your Birthday Lucky</h1></span>
+            </div>
+            <div>
+                <span><a href="https://github.com/Hnh013/lucky-birthday"><h1>Source Code</h1></a></span>
+            </div>
+        </nav>
+    </header>
+    <main>
+    <div class="container">
+        <div class="notice" #notice name="notice" id="notice"><b>Privacy Notice !</b> We are not saving your personal data at all.
+            <a href="#" id="notice-close"><i class="fa fa-times" aria-hidden="true"></i></a>
+        </div>
+
+
+        <h1>Is Your Birthday Lucky ?</h1>
+        <div class="para">
+        <label for="dob">Date Of Birth</label>
+        <input type="date" id="dob" required name="dob"/>
+        </div>
+        <div class="para">
+        <label for="luckyno" >Enter your lucky number</label>
+        <input type="number" required name="luckyno" id="luckyno" step="1" min="0"/>
+        </div>
+        <div class="para">
+        <button id="chknum" name="chknum">Check Number</button>
+        </div>
+        <div class="para">
+        <div id="luckypara" name="luckypara" style="display: none;" >
+            <h3> Congratulations ! your birthdate is Lucky</h3>
+           <div style="display: flex; justify-content: center;"><img class="img-res" src="./undraw_mello_otq1.svg" /></div>
+        </div>
+        <div id="unluckypara" name="unluckypara" style="display: none;" >
+            <h3>Sorry , Your birthdate is Unlucky..</h3>
+           <div style="display: flex; justify-content: center;"><img class="img-res" src="./undraw_cancel_u1it.svg" /></div>
+        </div>
+        </div>
+
+       
+           
+        <script src="./index.js"></script>
+    </div>
+    </main>
+    <footer>
+        </div>
+        <div class="footer-div">
+            <div class="social-icon"> &copy | Harshit Negi | 2021</div>
+            <div class="social-icon"><a href="https://www.facebook.com/harshit.negi.520/"><i
+                        class="fa fa-facebook-square"></i></a></div>
+            <div class="social-icon"><a href="https://github.com/Hnh013"><i class="fa fa-github-square"></i></a></div>
+            <div class="social-icon"><a href="https://www.linkedin.com/in/harshit-negi-891bb717a/"><i
+                        class="fa fa-linkedin-square"></i></a></div>
+            <div class="social-icon"><a href="https://twitter.com/Harshit24076243"><i class="fa fa-twitter-square"></i></a>
+            </div>
+            <div class="social-icon"><a href="https://www.instagram.com/hnh013/"><i class="fa fa-instagram"></i></a></div>
+        </div>
+    </footer>
+    
+</body>
+</html>
