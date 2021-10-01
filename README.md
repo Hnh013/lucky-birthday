@@ -2,7 +2,7 @@
 ### A simple vanilla JS app to guess whether your birthday is lucky or not     
 
 A app in vanilla JS , that tells whether your birthday is lucky or not based on your birth date and lucky number   
-Live App at :    
+Live App at :  https://lucky-birthday-2ezme4ngc-hnh013.vercel.app/    
 Pre-requisites : A code editor    
 Steps to run the app at your local machine    
 
